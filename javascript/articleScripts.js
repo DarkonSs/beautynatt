@@ -6,7 +6,7 @@ if (code0) {
   code0.innerHTML = `
 <div class="navLogo">
 
-  <a href="../home.html">BeautyNatt</a>
+  <a href="../home">BeautyNatt</a>
 
   <div id="search">
     <form id="search-form">
@@ -19,11 +19,11 @@ if (code0) {
 
 <div class="navbar">
   <ul>
-   <li><a href="../home.html">Home</a></li>
-    <li><a href="../home.html#latestPagesPart">Latest Pages</a></li>
-   <li><a href="../about-us.html">About Us</a></li>
-    <li><a href="../contact.html">Contact</a></li>
-   <li><a href="../home.html#faq">FAQ</a></li>
+   <li><a href="../home">Home</a></li>
+    <li><a href="../home#latestPagesPart">Latest Pages</a></li>
+   <li><a href="../about-us">About Us</a></li>
+    <li><a href="../contact">Contact</a></li>
+   <li><a href="../home#faq">FAQ</a></li>
   </ul>
 </div>
 
@@ -36,11 +36,11 @@ if (code0) {
 
 <section class="seccion hidden-section" id="section">
   <ul>
-   <li><a href="../home.html">Home</a></li>
-   <li><a href="../home.html#latestPagesPart">Latest Pages</a></li>
-   <li><a href="../about-us.html">About Us</a></li>
-    <li><a href="../contact.html">Contact</a></li>
-   <li><a href="../home.html#faq">FAQ</a></li>
+   <li><a href="../home">Home</a></li>
+   <li><a href="../home#latestPagesPart">Latest Pages</a></li>
+   <li><a href="../about-us">About Us</a></li>
+    <li><a href="../contact">Contact</a></li>
+   <li><a href="../home#faq">FAQ</a></li>
   </ul>
 </section>
     `
@@ -67,12 +67,12 @@ if (code3) {
         <!--  <div class="linksSide">
             <div class="">
               <h3>Categories</h3>
-              <a href="../home.html">Makeup</a>
-              <a href="../home.html">Body Care</a>
-              <a href="../home.html">Frangrance</a>
-              <a href="../home.html">Hair Care</a>
-              <a href="../home.html">Oral Care</a>
-              <a href="../home.html">Skin Care</a>
+              <a href="../home">Makeup</a>
+              <a href="../home">Body Care</a>
+              <a href="../home">Frangrance</a>
+              <a href="../home">Hair Care</a>
+              <a href="../home">Oral Care</a>
+              <a href="../home">Skin Care</a>
             </div>
           </div>
 -->
@@ -80,12 +80,12 @@ if (code3) {
             <div class="linksSide">
               <div class="">
                 <h3>Main Pages</h3>
-                <a href="../home.html">Home</a>
-                <a href="../contact.html">Contact</a>
-                <a href="../about-us.html">About Us</a>
+                <a href="../home">Home</a>
+                <a href="../contact">Contact</a>
+                <a href="../about-us">About Us</a>
                 <a href="../">Terms</a>
-                <a href="../sitemap.html">Sitemap</a>
-                <a href="../home.html#latestPagesPart">Latest Pages</a>
+                <a href="../sitemap">Sitemap</a>
+                <a href="../home#latestPagesPart">Latest Pages</a>
               </div>
               <div class="">
                 <h3>Social Media</h3>

@@ -11,7 +11,7 @@ if (code0) {
   <div id="search">
     <form id="search-form">
     <input type="text" id="searchInput" placeholder="Find pages" disabled>
-    <button type="submit" name="searchButton"><img src="./img/manifyingGlassIcon.webp"></button>
+    <button type="submit" aria-label="searchButton"><img src="./img/manifyingGlassIcon.webp" alt="manifying glass icon"></button>
     </form>
   </div>
 

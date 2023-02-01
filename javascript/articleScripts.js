@@ -48,9 +48,10 @@ if (code0) {
 
 if (code3) {
   code3.innerHTML = `
-<a onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;" class="backUpBtn">
-      BACK UP ▲
-    </a>
+<a href="#top" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;" class="backUpBtn">
+  BACK UP ▲
+</a>
+
     <div class="footer">
 
       <div class="mainFooter">

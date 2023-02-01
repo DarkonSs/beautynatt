@@ -167,7 +167,7 @@ header a {
   height: 400px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65),
       rgba(0, 0, 0, 0.65)),
-    url('../img/makeupBg.png');
+    url('../img/makeupBg.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

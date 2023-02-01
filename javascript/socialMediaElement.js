@@ -38,17 +38,17 @@ const applyStyles = () => {
             outerDiv.id = "socialMediaOnArticle";
 
             const youtubeImg = document.createElement("img");
-            youtubeImg.src = "../img/youtubeLogo.png";
-            youtubeImg.alt = "";
+            youtubeImg.src = "../img/youtubeLogo.webp";
+            youtubeImg.alt = "youtube icon";
             const twitterImg = document.createElement("img");
-            twitterImg.src = "../img/twitterLogo.png";
-            twitterImg.alt = "";
+            twitterImg.src = "../img/twitterLogo.webp";
+            twitterImg.alt = "twitter icon";
             const instagramImg = document.createElement("img");
-            instagramImg.src = "../img/instagramLogo.png";
-            instagramImg.alt = "";
+            instagramImg.src = "../img/instagramLogo.webp";
+            instagramImg.alt = "instagram icon";
             const facebookImg = document.createElement("img");
-            facebookImg.src = "../img/facebookLogo.png";
-            facebookImg.alt = "";
+            facebookImg.src = "../img/facebookLogo.webp";
+            facebookImg.alt = "facebook icon";
 
             const youtubeLink = document.createElement("a");
             youtubeLink.target = "_blank";
@@ -93,32 +93,32 @@ const applyStyles = () => {
                 facebookLink.target = "_blank";
                 facebookLink.href = "https://www.facebook.com/";
                 const facebookImg = document.createElement("img");
-                facebookImg.src = "../img/facebookLogo.png";
-                facebookImg.alt = "";
+                facebookImg.src = "../img/facebookLogo.webp";
+                facebookImg.alt = "facebook icon";
                 facebookLink.appendChild(facebookImg);
 
                 const instagramLink = document.createElement("a");
                 instagramLink.target = "_blank";
                 instagramLink.href = "https://www.instagram.com/";
                 const instagramImg = document.createElement("img");
-                instagramImg.src = "../img/instagramLogo.png";
-                instagramImg.alt = "";
+                instagramImg.src = "../img/instagramLogo.webp";
+                instagramImg.alt = "instagram icon";
                 instagramLink.appendChild(instagramImg);
 
                 const twitterLink = document.createElement("a");
                 twitterLink.target = "_blank";
                 twitterLink.href = "https://twitter.com/";
                 const twitterImg = document.createElement("img");
-                twitterImg.src = "../img/twitterLogo.png";
-                twitterImg.alt = "";
+                twitterImg.src = "../img/twitterLogo.webp";
+                twitterImg.alt = "twitter icon";
                 twitterLink.appendChild(twitterImg);
 
                 const youtubeLink = document.createElement("a");
                 youtubeLink.target = "_blank";
                 youtubeLink.href = "https://www.youtube.com/";
                 const youtubeImg = document.createElement("img");
-                youtubeImg.src = "../img/youtubeLogo.png";
-                youtubeImg.alt = "";
+                youtubeImg.src = "../img/youtubeLogo.webp";
+                youtubeImg.alt = "youtube icon";
                 youtubeLink.appendChild(youtubeImg);
 
                 socialMediaOnLeftSticky.appendChild(facebookLink);

@@ -94,7 +94,7 @@ li {
   color: var(--colorLabel);
 }
 
-@media (min-width: 705px) {
+@media (min-width: 630px) {
   h1 {
     margin-bottom: 20px;
     font-size: 2.625rem;
@@ -127,7 +127,7 @@ li {
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 705px) {
   h1 {
     margin-bottom: 20px;
     font-size: 2.5rem;

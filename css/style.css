@@ -1117,7 +1117,7 @@ socialMediaOnLeftSticky
   font-size: 40px;
   cursor: pointer;
   user-select: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 .cards2 {
@@ -1140,7 +1140,7 @@ socialMediaOnLeftSticky
   margin-bottom: 25px;
   cursor: pointer;
   border-radius: 15px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .card2:hover p {

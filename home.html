@@ -6,13 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>BeautyNatt - Choose wisely, trust confidently!</title>
-  <meta name="description" content="Our goal at BeautyNatt is to increase our audience's self-assurance by making it simpler for them to locate the top beauty and personal care items and guidance.">
+  <meta name="description"
+    content="Our goal at BeautyNatt is to increase our audience's self-assurance by making it simpler for them to locate the top beauty and personal care items and guidance.">
   <meta name=”robots” content=”index, follow”>
 
   <link rel="shortcut icon" href="img/beautynattLogo.webp">
   <link rel="apple-touch-icon" href="img/beautynattLogo.webp">
 
   <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VVMZHS2DCP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-VVMZHS2DCP');
+  </script>
 </head>
 
 <body>
@@ -63,7 +77,7 @@
               <span onclick="leftScroll(this)" class="material-icons-outlined">keyboard_arrow_left</span>
               <div class="cards2">
 
-                <div class="card2" onclick="window.location='./skin-care/best-facial-cleansers-for-sll-skin-types'">
+                <div class="card2" onclick="window.location='./skin-care/best-facial-cleansers-for-all-skin-types'">
                   <img id="card2Img" src="./img/noImage.webp" alt="unassigned image">
                   <div class="cardInfo" id="cardInfo">
                     <small id="articleDate">UPDATED on 24/12/22</small>
@@ -242,8 +256,8 @@
 
   <footer id="footer">
     <a href="#top" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;" class="backUpBtn">
-  BACK UP ▲
-</a>
+      BACK UP ▲
+    </a>
 
     <div class="footer">
   </footer>

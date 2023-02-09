@@ -100,7 +100,7 @@ if (code3) {
           </div>
         </div>
 `
-}
+} 
 
 function hambmenu() {
   var x = document.getElementById("section");

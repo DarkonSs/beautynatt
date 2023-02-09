@@ -231,12 +231,13 @@ a {
   border-radius: 100px;
 }
 
-span {
+.a2 {
   cursor: pointer;
   color: var(--blue-light);
+  padding: initial;
 }
 
-span:hover {
+.a2:hover {
   text-decoration: underline;
 }
 
@@ -1179,6 +1180,10 @@ socialMediaOnLeftSticky .contactForImportantMatters {
 
 .cards2::-webkit-scrollbar {
   display: none;
+} 
+
+.cards2 a { 
+padding: initial;
 }
 
 .card2 img {

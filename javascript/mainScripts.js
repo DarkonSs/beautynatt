@@ -11,7 +11,7 @@ if (code0) {
   <div id="search">
     <form id="search-form">
     <input type="text" id="searchInput" placeholder="Find pages" disabled>
-    <button type="submit" aria-label="searchButton"><img src="./img/manifyingGlassIcon.webp" alt="manifying glass icon"></button>
+    <button type="submit" aria-label="searchButton"><img src="./img/manifyingGlassIcon.webp" alt="manifying glass icon" width="16px"></button>
     </form>
   </div>
 
@@ -36,11 +36,13 @@ if (code0) {
 
 <section class="seccion hidden-section" id="section">
   <ul>
-   <li><a href="./home">Home</a></li>
-   <li><a href="./home#latestPagesPart">Latest Pages</a></li>
-   <li><a href="./about-us">About Us</a></li>
-    <li><a href="./contact">Contact</a></li>
-   <li><a href="./home#faq">FAQ</a></li>
+  <li><a href="./home">Home</a></li>
+  <li><a href="./contact">Contact</a></li>
+  <li><a href="./about-us">About Us</a></li>
+  <li><a href="./home#latestPagesPart">Latest Pages</a></li>
+  <li><a href="./terms-and-conditions">Terms & Conditions</a></li>
+  <li><a href="./privacy-policy">Privacy Policy</a></li>
+  <li><a href="./sitemap">Sitemap</a> </li>
   </ul>
 </section>
     `
@@ -48,9 +50,9 @@ if (code0) {
 
 if (code3) {
   code3.innerHTML = `
-<a href="#top" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;" class="backUpBtn">
+<span href="#top" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;" class="backUpBtn">
   BACK UP ▲
-</a>
+</span>
 
     <div class="footer">
 
@@ -84,9 +86,10 @@ if (code3) {
                 <a href="./home">Home</a>
                 <a href="./contact">Contact</a>
                 <a href="./about-us">About Us</a>
-                <a href="./">Terms</a>
-                <a href="./sitemap">Sitemap</a>
                 <a href="./home#latestPagesPart">Latest Pages</a>
+                <a href="./terms-and-conditions">Terms & Conditions</a>
+                <a href="./privacy-policy">Privacy Policy</a>
+                <a href="./sitemap">Sitemap</a> 
               </div>
               <div class="">
                 <h3>Social Media</h3>
